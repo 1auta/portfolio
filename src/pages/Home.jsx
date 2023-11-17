@@ -13,9 +13,11 @@ export function Home() {
             omnis optio quae. Tempore perferendis pariatur deserunt vitae
             voluptates consequuntur doloribus necessitatibus.
           </p>
-          <button className=" mt-5 bg-[#34547A] py-2 px-4 text-white	">
-            Напишіть мені
-          </button>
+          <a href="https://t.me/serogagagag">
+            <button className=" mt-5 bg-[#34547A] py-2 px-4 text-white	">
+              Напишіть мені
+            </button>
+          </a>
         </div>
       </div>
     </section>

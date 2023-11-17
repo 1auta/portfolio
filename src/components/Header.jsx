@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { ButtonLight } from "../button/Button";
 
 export function Header() {
@@ -7,7 +7,7 @@ export function Header() {
     <header className="p-4 bg-slate-500 text-white">
       <div>
         <div className="flex justify-around max-w-full">
-          <h1 className="text-2xl">1auta</h1>
+          <h1 className="text-2xl">Sergio</h1>
           <nav className="flex gap-10 text-lg">
             <NavLink
               className="py-1 px-4 rounded-lg"
