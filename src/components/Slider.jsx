@@ -37,13 +37,13 @@ export function Slider() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const prevSlide = () => {
+  const prevSlide = () => { // кнопка
     setCurrentSlide((prevSlide) =>
       prevSlide === 0 ? slides.length - 5 : prevSlide - 1
     );
   };
 
-  const nextSlide = () => {
+  const nextSlide = () => { // кнопка
     setCurrentSlide((prevSlide) =>
       prevSlide === slides.length - 5 ? 0 : prevSlide + 1
     );
@@ -59,7 +59,7 @@ export function Slider() {
             width: `${slides.length * (100 / 3)}%`, // розмір контейнера слайдів
           }}
         >
-          {slides.map((slide, index) => (
+          {slides.map((slide, index) => ( // метод мап для перебору даних з бази
             <div
               key={index}
               className="w-full max-w-sm rounded shadow-lg p-6 bg-white mx-1"

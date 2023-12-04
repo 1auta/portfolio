@@ -5,8 +5,9 @@ import { Slider } from "../components/Slider";
 export function AboutMe() {
   return (
     <>
-      <Container>
-        <div className="flex justify- mt-10 mx-1">
+    
+      <Container>  
+        <div className="flex justify- mt-10 mx-1"> 
           <img
             className="w-[380px] h-[450px] mt-5 rounded-lg shadow-2xl"
             src={Frame3}
@@ -53,7 +54,7 @@ export function AboutMe() {
           </div>
         </div>
         <Slider />
-      </Container>
-    </>
+     </Container>
+   </>
   );
 }
